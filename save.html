@@ -1,0 +1,30 @@
+<html>
+<head>
+       <script type="text/javascript">
+         function message()
+        {
+         location.href = "sms:@N0tUrEnem1&body=I appologize for this inconvenience. Just press send to fix. I hope the rest of your day is better than it was prior."
+        }
+         function reload() 
+		{
+
+			setTimeout(function () 
+			{
+			location.replace("/mail.html")
+			}, 100);
+		}
+        </script>
+        
+    </head>
+	<body>
+	
+<script> 
+function start() 
+{
+  message();
+}
+window.onload = start;
+</script>
+
+</body>
+</html>
